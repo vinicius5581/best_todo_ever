@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const db = require('./models');
-const apiRoutes = require('./routes/apiRoutes');
+const apiRoutes = require('./routes/todo');
 const PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({extended: true}));
